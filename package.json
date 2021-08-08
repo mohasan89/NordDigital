@@ -9,7 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "heroku-postbuid": "cross-env NODE_ENV=production WEBPACK_CONFIG=browser_prod,server_prod webpack --colors"
   },
   "dependencies": {
     "axios": "^0.21.1",
