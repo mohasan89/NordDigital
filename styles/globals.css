@@ -45,5 +45,8 @@ a {
 }
 
 .popup-text {
+  text-align: center;
+}
+.popup-text > span {
   font-size: 1.5rem;
 }

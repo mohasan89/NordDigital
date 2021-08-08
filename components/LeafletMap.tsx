@@ -51,7 +51,11 @@ const LeafletMap = ({ routeId }: prop) => {
         points.map((point: point, idx: number) => (
           <Marker key={idx} position={[point.lat, point.long]}>
             <Popup>
-              <span className="popup-text">{point.name}</span>
+              <div className="popup-text">
+                <span>
+                  {point.name} <br />({point.lat.toFixed(2)}, {point.long.toFixed(2)})
+                </span>
+              </div>
             </Popup>
           </Marker>
         ))}
