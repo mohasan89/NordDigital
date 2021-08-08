@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<traveling>
+	<route part="RF">
+		<place>
+			<name>Москва</name>
+			<lat>55.75030364449042</lat>
+			<long>37.62268066406251</long>
+		</place>
+		<place>
+			<name>Санкт-Петербург</name>
+			<lat>59.93300042374631</lat>
+			<long>30.355224609375004</long>
+		</place>
+		<place>
+			<name>Екатеринбург</name>
+			<lat>56.851975784517116</lat>
+			<long>60.60607910156251</long>
+		</place>
+		<place>
+			<name>Магадан</name>
+			<lat>59.564592966187426</lat>
+			<long>150.80692291259768</long>
+		</place>
+	</route>
+	<route part="NORTH">
+		<place>
+			<name>Хельсинки</name>
+			<lat>60.177038245151245</lat>
+			<long>24.93896484375</long>
+		</place>
+		<place>
+			<name>Стокгольм</name>
+			<lat>59.32758544549431</lat>
+			<long>18.072509765625004</long>
+		</place>
+		<place>
+			<name>Осло</name>
+			<lat>59.89720326334453</lat>
+			<long>10.827026367187502</long>
+		</place>
+		<place>
+			<name>Рейкявик</name>
+			<lat>64.13098207802928</lat>
+			<long>-21.862792968750004</long>
+		</place>
+	</route>
+	<route part="WEST">
+		<place>
+			<name>Рим</name>
+			<lat>41.918628865183045</lat>
+			<long>12.502441406250002</long>
+		</place>
+		<place>
+			<name>Лиссабон</name>
+			<lat>38.71980474264239</lat>
+			<long>-9.140625000000002</long>
+		</place>
+		<place>
+			<name>Мадрид</name>
+			<lat>40.396764305572056</lat>
+			<long>-3.6914062500000004</long>
+		</place>
+		<place>
+			<name>Афины</name>
+			<lat>37.97884504049713</lat>
+			<long>23.752441406250004</long>
+		</place>
+	</route>
+	<route part="USA">
+		<place>
+			<name>Лос Анжелес</name>
+			<lat>34.08906131584996</lat>
+			<long>-118.25683593750001</long>
+		</place>
+		<place>
+			<name>Сан Франциско</name>
+			<lat>37.75334401310659</lat>
+			<long>-122.34375000000001</long>
+		</place>
+		<place>
+			<name>Майями</name>
+			<lat>25.720735134412106</lat>
+			<long>-80.15625000000001</long>
+		</place>
+		<place>
+			<name>Нью Йорк</name>
+			<lat>40.713955826286046</lat>
+			<long>-74.00390625000001</long>
+		</place>
+	</route>
+</traveling>

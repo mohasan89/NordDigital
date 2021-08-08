@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#controller {
+  position: absolute;
+  top: 50px;
+  left: 95%;
+  max-width: 50vw;
+  transform: translateX(-100%);
+  z-index: 999 !important;
+  font-size: 1.9rem;
+  padding: 1rem 2rem;
+  background-color: rgba(245, 245, 245, 0.9);
+  border-radius: 10px;
+}
+
+#controller select {
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.popup-text {
+  font-size: 1.5rem;
+}
