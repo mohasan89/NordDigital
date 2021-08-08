@@ -33,4 +33,4 @@
 
 - axios: _0.21.1_
 - react-leaflet: _3.2.1_
-- xml2json: _0.12.0_
+- xml2js: _0.12.0_
