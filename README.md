@@ -31,6 +31,6 @@
 
 ## используемые библиотеки:
 
-    * axios: _0.21.1_
-    * react-leaflet: _3.2.1_
-    * xml2json: _0.12.0_
+- axios: _0.21.1_
+- react-leaflet: _3.2.1_
+- xml2json: _0.12.0_
